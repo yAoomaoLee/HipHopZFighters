@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkkkkaTeeeeeeeeeeBoard</title>
+</head>
+<style>
+    a:visited{color: black;}
+    a:hover{color: snow;}
+      a:link {
+            text-decoration: none;
+        }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .skaaa {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./PIC/skat.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .str {
+        font-size: 30px;
+        position: absolute;
+        top: 33%;
+        left: 5%;
+        color: rgba(51, 50, 50, 0.788);
+        animation: sttr 4s linear infinite;
+    }
+
+    @keyframes sttr {
+        0% {
+            transform: rotateZ(0deg);
+            filter: hue-rotate(180deg);
+        }
+
+        100% {
+            transform: rotateZ(180deg);
+            filter: hue-rotate(0deg);
+        }
+    }
+
+    .ska {
+        font-size: 30px;
+        position: absolute;
+        top: 3%;
+        left: 25%;
+        color: rgba(51, 50, 50, 0.788);
+        animation: ka 4s linear infinite;
+
+    }
+
+    @keyframes ka {
+        25% {
+            transform: translateY(10px);
+        }
+
+        50%,
+        100% {
+            transform: translateY(0);
+        }
+
+        75% {
+            transform: translateY(-10px);
+        }
+    }
+
+    .sport {
+        font-size: 30px;
+        position: absolute;
+        top: 33%;
+        left: 80%;
+        color: rgba(51, 50, 50, 0.788);
+        animation: spo 4s linear infinite;
+    }
+
+    @keyframes spo {
+        0% {
+            transform: rotateZ(0deg);
+            filter: hue-rotate(180deg);
+        }
+
+        100% {
+            transform: rotateZ(180deg);
+            filter: hue-rotate(0deg);
+        }
+    }
+
+    .ssk {
+        width: 900px;
+        height: 620px;
+        position: relative;
+        top: 20%;
+        left: 28%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        background-image: url(./PIC/ska.gif);
+        background-size: 100% 100%;
+        cursor: pointer;
+    }
+
+    .wz {
+        width: 520px;
+        height: 300px;
+        color: snow;
+        position: absolute;
+        transform: translate(40%, 500%);
+        transition: 1s;
+        text-align: center;
+    }
+
+    .ssk:hover .wz {
+        transform: translate(40%, 40%);
+    }
+
+    .back {
+        position: absolute;
+        top: 5%;
+        left: 84%;
+        background-color: rgba(153, 63, 138, 0.705);
+        animation: goback 4s linear infinite;
+    }
+
+    @keyframes goback {
+        25% {
+            transform: translateX(5px);
+        }
+
+        50%,
+        100% {
+            transform: translateY(0px);
+        }
+
+        75% {
+            transform: translateX(-5px);
+        }
+    }
+
+    .back:hover {
+        background: linear-gradient(rgb(0, 255, 128), rgb(255, 255, 255));
+    }
+    .bacck{
+        position: absolute;
+        top: 90%;
+        left:43%;
+        background: gray;
+        width:330px;
+        height: 38px;
+        text-align: center;
+        animation: oback 8s linear infinite;
+    }
+    @keyframes oback {
+            25% {
+                transform: translateX(300px);
+            }
+
+            50%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            75% {
+                transform: translateX(-300px);
+            }
+        }
+        .bacck:hover{background:linear-gradient(rgb(139, 139, 139),rgb(34, 31, 31));}
+</style>
+
+<body>
+    <div class="skaaa">
+        <div class="str">
+            <h1>街头缩影</h1>
+        </div>
+        <div class="ska">
+            <h1>「滑板」不只是一种运动 更是一种文化</h1>
+        </div>
+        <div class="sport">
+            <h1>极限运动</h1>
+        </div>
+        <div class="ssk">
+            <div class="wz">
+                <h1>
+                    从70年代开始玩板至今,自由式和街式滑板街式滑板动作的基础ollie<br /><br />滑板(Skateboard)运动可以说是现如今很多极限运动的鼻祖，后来的许多极限运动项目都是由它延伸而来的。而滑板却是在二十世纪五六十年代的时候由冲浪运动在陆地上的延伸。
+                </h1>
+            </div>
+        </div>
+        <div class="bacck"><a href="./hiphop.html"><h1>baccck HiPHoP社区</h1></div>
+    </div>
+</body>
+
+</html>

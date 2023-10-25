@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LZ community</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: snow;
+    }
+
+    a:hover {
+        color: rgba(0, 255, 76, 0.575)
+    }
+
+    .lz {
+        width: 100vw;
+        height: 100vh;
+        background-image: url(./PIC/vslz.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .longzhu {
+        width: 330px;
+        height: 90px;
+        background-color: rgba(45, 180, 90, 0.5);
+        white-space: nowrap;
+        position: absolute;
+        top: 10%;
+        left: 39%;
+        text-align: center;
+        line-height: 90px;
+        animation: lz 5s linear infinite;
+        color: rgb(255, 255, 255);
+        border: 1px solid snow;
+        cursor: pointer;
+    }
+
+    .longzhu:hover {
+        background: linear-gradient(rgb(17, 100, 0), rgb(25, 185, 80));
+    }
+
+    @keyframes lz {
+        25% {
+            transform: translateX(30px);
+        }
+
+        50%,
+        100% {
+            transform: translateX(0px);
+        }
+
+        75% {
+            transform: translateX(-30px);
+        }
+    }
+
+    .s {
+        width: 30vw;
+        height: 30vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.555);
+        background-image: url(./PIC/lz111111111111.png);
+    }
+
+    .s:hover {
+        width: 50vw;
+        height: 60vh;
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        background-image: url(./PIC/lz1.gif);
+    }
+
+    .ss {
+        width: 30vw;
+        height: 30vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+        position: absolute;
+        top: 30%;
+        right: 5%;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.555);
+        background-image: url(./PIC/lz2222222222222.png);
+    }
+
+    .ss:hover {
+        width: 50vw;
+        height: 60vh;
+        position: absolute;
+        top: 25%;
+        right: 5%;
+        background-image: url(./PIC/lz2.gif);
+    }
+    
+    .sss{
+        position: absolute;
+        top: 3%;
+        left: 40%;
+        width: 300px;
+        height: 30px;
+        background-color: rgba(0, 130, 44, 0.5);
+        white-space: nowrap;
+        text-align: center;
+        line-height: 30px;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="lz">
+        <div class="longzhu">
+            <h1>龙 珠 社 区</h1>
+        </div>
+        <div class="sss">
+            <h2><a href="zy.html">To Ssssssssssssssssss</a></h2>
+        </div>
+        <div class="s">
+        </div>
+        <div class="ss">
+        </div>
+    </div>
+</body>
+
+</html>

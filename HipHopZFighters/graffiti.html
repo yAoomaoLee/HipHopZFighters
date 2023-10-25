@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graffiti 涂鸦Ty</title>
+    <style>
+        a:visited {
+            color: rgba(229, 255, 0, 0.849);
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: darkorange;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .graffiti {
+            width: 100vw;
+            height: 100vh;
+            background-image: url(./PIC/str.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .life {
+            font-size: 30px;
+            position: absolute;
+            top: 0%;
+            left: 3%;
+            color: rgba(255, 255, 255, 0.788);
+            animation: lf 4s linear infinite;
+        }
+
+        @keyframes lf {
+            25% {
+                transform: translateY(30px);
+            }
+
+            50%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            75% {
+                transform: translateY(800px);
+            }
+
+            0% {
+                transform: rotateZ(0deg);
+                filter: hue-rotate(180deg);
+            }
+
+            100% {
+                transform: rotateZ(180deg);
+                filter: hue-rotate(0deg);
+            }
+        }
+
+        .live {
+            font-size: 30px;
+            position: absolute;
+            top: 8%;
+            left: 6%;
+            color: rgba(255, 255, 255, 0.788);
+            animation: lv 4s linear infinite;
+
+        }
+
+        @keyframes lv {
+            25% {
+                transform: translateX(30px);
+            }
+
+            50%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            75% {
+                transform: translateX(800px);
+            }
+
+            0% {
+                transform: rotateZ(0deg);
+                filter: hue-rotate(180deg);
+            }
+
+            100% {
+                transform: rotateZ(180deg);
+                filter: hue-rotate(0deg);
+            }
+        }
+
+        .play {
+            font-size: 30px;
+            position: absolute;
+            top: 16%;
+            left: 9%;
+            color: rgba(255, 255, 255, 0.788);
+            animation: pl 4s linear infinite;
+        }
+
+        @keyframes pl {
+            0% {
+                transform: rotateZ(0deg);
+                filter: hue-rotate(180deg);
+            }
+
+            100% {
+                transform: rotateZ(180deg);
+                filter: hue-rotate(0deg);
+            }
+        }
+
+        .kuai {
+            width: 900px;
+            height: 620px;
+            position: relative;
+            top: 20%;
+            left: 28%;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            background-image: url(./PIC/gra.gif);
+            cursor: pointer;
+        }
+
+        .wz {
+            width: 520px;
+            height: 300px;
+            color: snow;
+            position: absolute;
+            transform: translate(40%, 500%);
+            transition: 1s;
+            text-align: center;
+        }
+
+        .kuai:hover .wz {
+            transform: translate(40%, 40%);
+        }
+
+        .back {
+            position: absolute;
+            top: 5%;
+            left: 84%;
+            background-color: rgba(153, 63, 138, 0.705);
+            animation: goback 4s linear infinite;
+        }
+
+        @keyframes goback {
+            25% {
+                transform: translateX(5px);
+            }
+
+            50%,
+            100% {
+                transform: translateY(0px);
+            }
+
+            75% {
+                transform: translateX(-5px);
+            }
+        }
+
+        .back:hover {
+            background: linear-gradient(rgb(0, 255, 128), rgb(255, 255, 255));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="graffiti">
+        <div class="life">
+            <h1>生在街头</h1>
+        </div>
+        <div class="live">
+            <h1>活在街头</h1>
+        </div>
+        <div class="play">
+            <h1>玩转街头</h1>
+        </div>
+        <div class="kuai">
+            <div class="wz">
+                <h1>涂鸦发源于上世纪60年涂鸦（Graffita）的意大利文之意是乱写，而涂鸦（Graffiti）是指在墙壁上乱涂乱写出的图像或画作。城市涂代的纽约布朗克斯区（BronxZone），一些非帮派画家认为在墙上作画是很好玩的创意，于是撇开了帮派意识，逐渐形成了城市涂鸦这门艺术。涂鸦作为其中一种艺术形式传遍了世界各地。
+                </h1>
+            </div>
+        </div>
+        <div class="back"><a href="./hiphop.html">
+                <h1>Back HiPHoP Hub</h1>
+        </div>
+    </div>
+</body>
+
+</html>
